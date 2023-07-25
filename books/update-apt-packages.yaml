@@ -3,7 +3,7 @@
 
   become: true
   tasks:
-    - name: upate apt packages
+    - name: update apt packages
       apt:
         upgrade: yes
-        update_check: yes
+        update_cache: yes
